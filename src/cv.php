@@ -20,8 +20,8 @@
         <br />
         <hr />
 
-        <iframe id="cv_europass" src="http://docs.google.com/viewer?url=http%3A%2F%2Fkrzychoo.bugs3.com%2Fcv%2Fkrzysztof_jusiak_cv_europass.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>
-        <iframe id="cv_uk" src="http://docs.google.com/viewer?url=http%3A%2F%2Fkrzychoo.bugs3.com%2Fcv%2Fkrzysztof_jusiak_cv_uk.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>
+        <iframe id="cv_europass" src="http://docs.google.com/viewer?url=http%3A%2F%2Fkrzysztof-jusiak.github.io%2Fcv%2Fkrzysztof_jusiak_cv_europass.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>
+        <iframe id="cv_uk" src="http://docs.google.com/viewer?url=http%3A%2F%2Fkrzysztof-jusiak.github.io%2Fcv%2Fkrzysztof_jusiak_cv_uk.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>
         <iframe id="cv_us" src="" width="100%" height="100%" style="border: none;"></iframe>'
 
       .'</div></div>'
