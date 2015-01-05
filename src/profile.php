@@ -18,10 +18,11 @@
 
 	$body = 
 		'<div class="rounded"><div class="inner">'
-		.'<table><tr><td>'
-		.$linkedin->find('div[class=profile-picture]', 0)->innertext
-		.'</td><td>'
-		.'</td></tr></table><hr/>'
+		//.'<table><tr><td>'
+		//.$linkedin->find('div[class=profile-picture]', 0)->innertext
+		//.'</td><td>'
+		//.'</td></tr></table><hr/>'
+        .'<hr/>'
 		.$linkedin->find('div[id=background-summary-container]', 0)->innertext
 		.'<b>Experience</b><hr />'
 		.$linkedin->find('div[id=background-experience-container]', 0)->innertext
