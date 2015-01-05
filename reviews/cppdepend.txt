@@ -1,0 +1,179 @@
+CppDepend is a C++ static analysis tool like Clang Static
+Analyzer/CppCheck/Flint/Klocwork etc...
+It's based on clang, which is a huge advantage in comparison to most other
+tools, because such approach eliminates false positives related to custom
+parser/lexer implementation.
+
+The first question I had on my mind when I seen CppDepened the first time:
+Why another tool? clang static analyzer isn't cool
+enough? Well, I guess the answer might be found in additional features, visual
+interface etc..., but we shall see.
+
+To start, let's get the product download page then:
+
+	http://www.cppdepend.com/cppdependdownload.aspx.
+
+We can get 14-day trial or full version if we have a license key.
+Well, I'm fortunately enough to have the license key thanks to very nice gesture
+from CppDepend team. I'm going to download Linux version - 64 bits.
+
+Next step will be to unpack our CppDepend:
+
+	tar zxvf CppDepend_v4_0_0_64.tar.gz
+
+and then we will get directory with few binaries/libs inside.
+First thing I have noticed was, that clang binary might be found there as
+well. Hmm, let's see what version then?
+
+	$./clang -v
+	clang version 3.2 (trunk)
+
+Not the newest one, currently the stable version is 3.5 and 3.6 is on it's
+way, so we won't be able to use a lot of C++14 features with the current
+version.
+
+So we have below binaries:
+	BuildMonitor
+	config
+	CppDependConsole/CppDependConsole.sh/CppDepend.Console.exe
+	ProjectMaker.exe
+	VisualCppDepend/VisualCppDepend.exe
+	mcs2
+
+Hmm, why there are windows executables in linux version I don't know, but we can try
+them, maybe is just a name confusion?
+
+	$./ProjectMaker.exe
+	bash: ./ProjectMaker.exe: cannot execute binary file
+
+Seems like we won't be able to use ProjectMaker on linux since linux version
+is not provided?
+
+Let's try different ones then:
+
+	$./config
+	./config: line 1: syntax error near unexpected token \`newline'
+	./config: line 1: \`<configuration>'
+
+Okay, I guess I should stick with the provided documentation, which is really
+easy to read and provide a lot of useful informations as well as step by step
+tutorial.
+	
+Let's try with the simple example then.
+
+	$cat t1.cpp
+	int main() {
+		auto* i = new int(); // memory leak
+		return i != nullptr;
+	}
+
+Since we aren't using Visual Studio project we will have to provide
+custom configuration - "BuildMonitor" is the tool which does the work.
+
+	$./BuildMonitor clang++ --std=c++11 t1.cpp
+	Segmentation fault
+
+Oops,
+	
+	$./BuildMonitor --help
+	Segmentation fault
+
+Quick look in the documentation then:
+	$cat Makefile
+	all:
+		clang++ --std=c++11 t1.cpp
+
+	$./BuildMonitor -o t1.build make
+
+Yay, it worked! "t1.build" contains specific information about how the project
+was built.
+
+Let's run VisualCppDepend then. We have to create project from our "t1.build"
+configuration. At least on my linux the GUI seems a bit hard to see, but it
+runs without any obstacles though. We click play button and we get a lot, really
+a lot of statistics.
+
+Okay there are few cool things:
+	Dependency Graph/Dependency Matrix
+	Metrics  - Line of codes, methods, etc...
+	Create Query - in order to limit rules
+	And a lot of rules, which unfortunately haven't been violated in our example
+
+Seems that GUI has huge potential if one will get to know it. A lot of
+graphs/diagrams and everything might be saved as a report - guess
+managers/producers will love this tool.
+
+But I'm a developer and I'm not really interested in all them fancy stuff. My
+goal is to be able to run the analysis from command line quickly and integrate it with
+my build system and preferably vi.
+
+Supposedly CppDependConsole would do the job: 
+
+	$./CppDependConsole.sh t1.cdproj
+	INFO:    09/08/2014 12:11:34 Begin full analysis with CppDepend v4.0.0.8850
+	INFO:    No Baseline for Comparison loaded.
+	WARNING: This kind of project cant be analyzed by CppDepend {project}:
+	if you can convert it to vcproj or use ProjectMaker to create your project description
+	INFO:    No dependency cycle detected in projects referencement graph.
+	INFO:    09/08/2014 12:11:34 Analyse dependencies of your application.
+	INFO:    09/08/2014 12:11:34 Building the report (standard).
+	INFO:    09/08/2014 12:11:36 End CppDepend analyse.
+	INFO:    09/08/2014 12:11:36 Duration: 00:00:01
+	INFO:    09/08/2014 12:11:36 Report built.
+
+Hmm, no idea, well let's assume it worked and there were no errors.
+
+Let's try different, more complex project then.
+I chosen Dlib - http://dlib.net - which is a general purpose cross-platform C++ library
+designed using contract programming and modern C++ techniques.
+
+	$dlib-18.10/build$ BuildMonitor -o dlib.build cmake ../dlib
+
+Okay, now we have results. Analysis was quick, took pretty much as much time
+as the compilation.
+
+We got 3 critical issues:
+	1. Types too big
+	2. Methods too complex
+	3. Method with too many parameters
+
+Alright, we have a lot of other issues as well. The main thing is, that
+is really hard to get to the code from the rule. Rule explanations are useful,
+but I would like to see where the problem occurs in the source code! Charts
+look nice though. Let's try from command line, since it's really hard to verify
+if rules are useful without seeing the source code.
+
+	$dlib-18.10/build$ CppDependConsole.sh -o dlib.cdproj
+
+Our output will looks like that:
+	WARNING: 3 critical rules are violated.
+	  - Types too big - critical
+	  - Methods too complex - critical
+	  - Methods with too many parameters - critical
+
+Nice, but it's not really useful in order to fix them. I would like to see
+something like that instead:
+
+	dlib.cpp:100:1: in function dlib() - Types too big - critical
+	dlib.cpp:200:1: function dlib() - Methods too complex - critical
+	dlib.cpp:300:1: function dlib(a, b, c, d, e, f, g, h) - Methods with too many parameters - critical
+
+Then I would be able to quickly fix it, I'm not going to open visual application, with every build.
+
+Let's try /FullAnalysis
+
+	$dlib-18.10/build$ CppDependConsole.sh -o dlib.cdproj /FullAnalysis 
+
+Well, we will get the same results. Thought we will get all the warnings here
+though as in visual version.
+
+There is a really nice looking HTML output as well, which might be seen using
+/ViewReport option:
+
+	$dlib-18.10/build$ CppDependConsole.sh -o dlib.cdproj /ViewReport
+
+To sum up, CppDepend seems to be a good product, especially for managers due
+to a lot of graphs/diagrams and statistics in general. 
+Linux version still requires quite a bit of work to be useful for developers
+on daily bases.
+
