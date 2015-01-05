@@ -24,23 +24,23 @@
                 <div class="menu">
                     <ul>
                         <li class="home">
-                            <a href="index.php">'.$aboutme.'</a>
+                            <a href="index.html">'.$aboutme.'</a>
                         </li>
 
                         <li class="profile">
-                            <a href="profile.php">'.$profile.'</a>
+                            <a href="profile.html">'.$profile.'</a>
                         </li>
 
                         <li class="projects">
-                            <a href="projects.php">'.$projects.'</a>
+                            <a href="projects.html">'.$projects.'</a>
                         </li>
 
                         <li class="blog">
-                            <a href="blog.php">'.$blog.'</a>
+                            <a href="blog.html">'.$blog.'</a>
                         </li>
 
                         <li class="cv">
-                            <a href="cv.php">'.$resume.'</a>
+                            <a href="cv.html">'.$resume.'</a>
                         </li>
                     </ul>
                 </div>
