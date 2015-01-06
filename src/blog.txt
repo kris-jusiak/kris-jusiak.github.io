@@ -1,6 +1,6 @@
 $blog = '
 
-<i>2013-03-23</i><br/ >
+<i>2013-01-07</i><br/ >
     Simple Modern C++ test framework (<a target="_blank" href="https://gist.github.com/krzysztof-jusiak/631e3f68fe29b04b7b0f">test.hpp</a>)<br />
     '.cpp_file("cpp/test.cpp").'
 <hr />
