@@ -10,6 +10,11 @@ $blog = '
     <a target="_blank" href="http://www.easycppcodes.com/2015/01/best-c-opensource-libraries-to-work-upon.html">http://www.easycppcodes.com/2015/01/best-c-opensource-libraries-to-work-upon.html</a>
 <hr />
 
+<i>2013-01-05</i><br/ >
+    An image server for legible & concise information:
+    <a target="_blank" href="https://github.com/badges/shields">https://github.com/badges/shields</a>
+<hr />
+
 <i>2015-01-04</i><br/ >
     Meeting C++ videos:
     <a target="_blank" href="https://www.youtube.com/channel/UCJpMLydEYA08vusDkq3FmjQ">https://www.youtube.com/channel/UCJpMLydEYA08vusDkq3FmjQ</a>
