@@ -7,7 +7,7 @@ $blog = '
 
 <i>2013-01-09</i><br/ >
     More C++ idioms:
-    <a target="_blank" href="https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms">https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms</a>
+    <a target="_blank" href="https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms">https://en.wikibooks.org/wiki/More_C++_Idioms</a>
 <hr />
 
 <i>2013-01-07</i><br/ >
