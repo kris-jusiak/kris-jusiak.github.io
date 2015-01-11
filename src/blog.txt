@@ -1,7 +1,7 @@
 $blog = '
 
 <i>2013-01-11</i><br/ >
-    Scott Meyers - Nine New Videos: Three Legit, Six Bootleg:
+    Scott Meyers - Nine New Videos: Three Legit, Six Bootleg: <br />
     <a target="_blank" href="http://scottmeyers.blogspot.in/2015/01/nine-new-videos-three-legit-six-bootleg.html">http://scottmeyers.blogspot.in/2015/01/nine-new-videos-three-legit-six-bootleg.html</a>
 <hr />
 
