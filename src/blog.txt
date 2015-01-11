@@ -1,5 +1,15 @@
 $blog = '
 
+<i>2013-01-11</i><br/ >
+    Scott Meyers - Nine New Videos: Three Legit, Six Bootleg:
+    <a target="_blank" href="http://scottmeyers.blogspot.in/2015/01/nine-new-videos-three-legit-six-bootleg.html">http://scottmeyers.blogspot.in/2015/01/nine-new-videos-three-legit-six-bootleg.html</a>
+<hr />
+
+<i>2013-01-09</i><br/ >
+    More C++ idioms:
+    <a target="_blank" href="https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms">https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms</a>
+<hr />
+
 <i>2013-01-07</i><br/ >
     Simple Modern C++ test framework (<a target="_blank" href="https://gist.github.com/krzysztof-jusiak/631e3f68fe29b04b7b0f">test.hpp</a>)<br />
     '.cpp_file("cpp/test.cpp").'
