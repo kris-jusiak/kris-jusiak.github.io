@@ -1,7 +1,7 @@
 $blog = '
 
 <i>2013-01-12</i><br/ >
-    [Boost.DI/C++14] - Modern C++ Dependency Injection Library
+    [Boost.DI/C++14] - Modern C++ Dependency Injection Library:
     <a target="_blank" href="https://github.com/krzysztof-jusiak/di">https://github.com/krzysztof-jusiak/di</a>
 <hr />
 
