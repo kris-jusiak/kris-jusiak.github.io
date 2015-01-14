@@ -1,5 +1,10 @@
 $blog = '
 
+<i>2013-01-14</i><br/ >
+    Pruning Error Messages From C++ Template Code - Roland Bock @ Meeting C++ 2014:
+    <a target="_blank" href="https://www.youtube.com/watch?v=afGv7A9gvmc">https://www.youtube.com/watch?v=afGv7A9gvmc</a>
+<hr />
+
 <i>2013-01-12</i><br/ >
     [Boost.DI/C++14] - Modern C++ Dependency Injection Library:
     <a target="_blank" href="https://github.com/krzysztof-jusiak/di">https://github.com/krzysztof-jusiak/di</a>
