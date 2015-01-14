@@ -1,6 +1,11 @@
 $blog = '
 
 <i>2013-01-14</i><br/ >
+    ISO/IEC 14882:2015 Information technology -- Programming languages -- C++: <br />
+    <a target="_blank" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=64029">http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=64029</a>
+<hr />
+
+<i>2013-01-13</i><br/ >
     Pruning Error Messages From C++ Template Code - Roland Bock @ Meeting C++ 2014:
     <a target="_blank" href="https://www.youtube.com/watch?v=afGv7A9gvmc">https://www.youtube.com/watch?v=afGv7A9gvmc</a>
 <hr />
