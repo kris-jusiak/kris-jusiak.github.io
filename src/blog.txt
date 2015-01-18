@@ -1,5 +1,10 @@
 $blog = '
 
+<i>2013-01-18</i><br/ >
+    Industry, academia should be in sync, says C++ founder:
+    <a target="_blank" href="http://timesofindia.indiatimes.com/business/india-business/Industry-academia-should-be-in-sync-says-C-founder/articleshow/45926993.cms">http://timesofindia.indiatimes.com/business/india-business/Industry-academia-should-be-in-sync-says-C-founder/articleshow/45926993.cms</a>
+<hr />
+
 <i>2013-01-15</i><br/ >
     Compiling GCC 5.0 from the source code:
     '.cpp_code("wget ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/snapshots/5-20150111/gcc-5-20150111.tar.bz2
