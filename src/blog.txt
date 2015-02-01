@@ -30,7 +30,7 @@ $blog = '
     '.cpp_code("wget ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/snapshots/5-20150111/gcc-5-20150111.tar.bz2
 tar xvjf gcc-5-20150111.tar.bz2
 cd gcc-5-20150111
-mkdir build && cd build && ../configure --enable-languages=c++
+mkdir build && cd build && ../configure --enable-languages=c++ --enable-lto --enable-checking=release
 make -j4
 sudo make install").'
 <hr />
