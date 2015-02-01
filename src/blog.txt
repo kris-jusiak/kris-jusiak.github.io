@@ -1,5 +1,10 @@
 $blog = '
 
+<i>2013-01-30</i><br/ >
+    "The Best Programming Advice I Ever Got": <br />
+    <a target="_blank" href="http://www.informit.com/promotions/experts-in-programming-share-their-knowledge-with-the-138930">http://www.informit.com/promotions/experts-in-programming-share-their-knowledge-with-the-138930</a>
+<hr />
+
 <i>2013-01-29</i><br/ >
     Kythe: a new approach to making developer tools: <br />
     <a target="_blank" href="http://google-opensource.blogspot.co.uk/2015/01/kythe-new-approach-to-making-developer.html">http://google-opensource.blogspot.co.uk/2015/01/kythe-new-approach-to-making-developer.html</a>
