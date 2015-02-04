@@ -1,5 +1,15 @@
 $blog = '
 
+<i>2013-02-05</i><br/ >
+    What Every Programmer Should Know About Compiler Optimizations:
+    <a target="_blank" href="https://msdn.microsoft.com/en-us/magazine/dn904673.aspx">https://msdn.microsoft.com/en-us/magazine/dn904673.aspx</a>
+<hr />
+
+<i>2013-02-04</i><br/ >
+    .NET CoreCLR is now Open Source:
+    <a target="_blank" href="https://github.com/dotnet/coreclr">https://github.com/dotnet/coreclr</a>
+<hr />
+
 <i>2013-01-30</i><br/ >
     "The Best Programming Advice I Ever Got": <br />
     <a target="_blank" href="http://www.informit.com/promotions/experts-in-programming-share-their-knowledge-with-the-138930">http://www.informit.com/promotions/experts-in-programming-share-their-knowledge-with-the-138930</a>
