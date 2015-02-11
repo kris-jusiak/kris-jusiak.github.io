@@ -1,5 +1,10 @@
 $blog = '
 
+<i>2013-02-11</i><br/ >
+    Writing Your Own Toy Compiler Using Flex, Bison and LLVM: <br />
+    <a target="_blank" href="http://gnuu.org/2009/09/18/writing-your-own-toy-compiler/all/1">http://gnuu.org/2009/09/18/writing-your-own-toy-compiler/all/1</a>
+<hr />
+
 <i>2013-02-05</i><br/ >
     What Every Programmer Should Know About Compiler Optimizations:
     <a target="_blank" href="https://msdn.microsoft.com/en-us/magazine/dn904673.aspx">https://msdn.microsoft.com/en-us/magazine/dn904673.aspx</a>
