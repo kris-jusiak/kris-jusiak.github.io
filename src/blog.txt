@@ -1,5 +1,15 @@
 $blog = '
 
+<i>2013-02-18</i><br/ >
+    List of Free Programming Books:
+    <a target="_blank" href="http://resrc.io/list/10/list-of-free-programming-books">http://resrc.io/list/10/list-of-free-programming-books</a>
+<hr />
+
+<i>2013-02-15</i><br/ >
+    GitHub star ranking for users, organizations and repositories:
+    <a target="_blank" href="http://githubranking.com">http://githubranking.com</a>
+<hr />
+
 <i>2013-02-11</i><br/ >
     Writing Your Own Toy Compiler Using Flex, Bison and LLVM: <br />
     <a target="_blank" href="http://gnuu.org/2009/09/18/writing-your-own-toy-compiler/all/1">http://gnuu.org/2009/09/18/writing-your-own-toy-compiler/all/1</a>
