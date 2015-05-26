@@ -1,5 +1,15 @@
 $blog = '
 
+<i>2013-05-27</i><br/ >
+    API/ABI changes analysis for C/C++ Libraries:
+    <a target="_blank" href="http://upstream-tracker.org/">http://upstream-tracker.org/</a>
+<hr />
+
+<i>2013-05-26</i><br/ >
+    C++17 Fold Expressions:
+    <a target="_blank" href="http://baptiste-wicht.com/posts/2015/05/cpp17-fold-expressions.html">http://baptiste-wicht.com/posts/2015/05/cpp17-fold-expressions.html</a>
+<hr />
+
 <i>2013-05-25</i><br/ >
     C++11 Tutorial: Introducing the Move Constructor and the Move Assignment Operator: <br />
     <a target="_blank" href="http://blog.smartbear.com/c-plus-plus/c11-tutorial-introducing-the-move-constructor-and-the-move-assignment-operator">http://blog.smartbear.com/c-plus-plus/c11-tutorial-introducing-the-move-constructor-and-the-move-assignment-operator</a>
