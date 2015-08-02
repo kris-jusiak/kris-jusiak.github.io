@@ -1,12 +1,38 @@
 $blog = '
 
-<i>2015-07-20</i><br/ >
-    <a target="_blank" href=""></a>
+<i>2015-08-03</i><br/ >
+    List of online C++ compilers:
+    <a target="_blank" href="http://6uold.blogspot.co.uk/2015/06/list-of-online-c-compilers.html">http://6uold.blogspot.co.uk/2015/06/list-of-online-c-compilers.html</a>
+<hr />
+
+<i>2015-08-02</i><br/ >
+    C++11 Metaprogramming Applied to Software Obfuscation:
+    <a target="_blank" href="https://www.youtube.com/watch?v=Z-QYa6dSc-o">https://www.youtube.com/watch?v=Z-QYa6dSc-o</a>
+<hr />
+
+<i>2015-08-01</i><br/ >
+    GoingNative 40: Updated STL in VS 2015 (feat. STL):
+    <a target="_blank" href="https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-40-Updated-STL-in-VS-2015-feat-STL">https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-40-Updated-STL-in-VS-2015-feat-STL</a>
 <hr />
 
 <i>2015-07-30</i><br/ >
     Switching Eds: Face swapping with Python, dlib, and OpenCV: <br />
     <a target="_blank" href="http://matthewearl.github.io/2015/07/28/switching-eds-with-python">http://matthewearl.github.io/2015/07/28/switching-eds-with-python</a>
+<hr />
+
+<i>2015-07-29</i><br/ >
+    Modern C++ for the Windows Runtime:
+    <a target="_blank" href="http://moderncpp.com/2015/07/29/available-on-github">http://moderncpp.com/2015/07/29/available-on-github</a>
+<hr />
+
+<i>2015-07.28</i><br/ >
+    std::shared_ptr\'s secret constructor:
+    <a target="_blank" href="https://www.justsoftwaresolutions.co.uk/cplusplus/shared-ptr-secret-constructor.html">https://www.justsoftwaresolutions.co.uk/cplusplus/shared-ptr-secret-constructor.html</a>
+<hr />
+
+<i>2015-07-26</i><br/ >
+    Welcome to the Visual Studio MI Debug Engine:
+    <a target="_blank" href="https://github.com/Microsoft/MIEngine">https://github.com/Microsoft/MIEngine</a>
 <hr />
 
 <i>2015-07-22</i><br/ >
