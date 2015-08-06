@@ -1,5 +1,15 @@
 $blog = '
 
+<i>2015-08-06</i><br/ >
+    Awesome IT lists:
+    <a target="_blank" href="https://github.com/sindresorhus/awesome">https://github.com/sindresorhus/awesome</a>
+<hr />
+
+<i>2015-08-05</i><br/ >
+    After 15 years of active developement, does the Boost C++ library meet its original vision? <br />
+    <a target="_blank" href="http://www.codergears.com/Blog/?p=1878">http://www.codergears.com/Blog/?p=1878</a>
+<hr />
+
 <i>2015-08-03</i><br/ >
     List of online C++ compilers:
     <a target="_blank" href="http://6uold.blogspot.co.uk/2015/06/list-of-online-c-compilers.html">http://6uold.blogspot.co.uk/2015/06/list-of-online-c-compilers.html</a>
