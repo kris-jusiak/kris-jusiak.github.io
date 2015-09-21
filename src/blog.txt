@@ -1,5 +1,55 @@
 $blog = '
 
+<i>2015-09-20</i><br/ >
+    C++ Reflection:
+    <a target="_blank" href="https://github.com/AustinBrunkhorst/CPP-Reflection">https://github.com/AustinBrunkhorst/CPP-Reflection</a>
+<hr />
+
+<i>2015-09-19</i><br/ >
+    Move semantics and rvalue references in C++11:
+    <a target="_blank" href="http://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html">http://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html</a>
+<hr />
+
+<i>2015-09-17</i><br/ >
+    C++ Core Guidelines:
+    <a target="_blank" href="https://github.com/isocpp/CppCoreGuidelines">https://github.com/isocpp/CppCoreGuidelines</a>
+<hr />
+
+<i>2015-09-17</i><br/ >
+    Google Is 2 Billion Lines of Code—And It’s All in One Place:
+    <a target="_blank" href="http://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place">http://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place</a>
+<hr />
+
+<i>2015-09-09</i><br/ >
+    Should you be using something instead of what you should use instead? <br />
+    <a target="_blank" href="http://scottmeyers.blogspot.de/2015/09/should-you-be-using-something-instead.html">http://scottmeyers.blogspot.de/2015/09/should-you-be-using-something-instead.html</a>
+<hr />
+
+<i>2015-09-07</i><br/ >
+    Unix History Repository:
+    <a target="_blank" href="https://github.com/dspinellis/unix-history-repo">https://github.com/dspinellis/unix-history-repo</a>
+<hr />
+
+<i>2015-09-06</i><br/ >
+    Python type hints:
+    <a target="_blank" href="https://www.python.org/dev/peps/pep-0484">https://www.python.org/dev/peps/pep-0484</a>
+<hr />
+
+<i>2015-09-05</i><br/ >
+    Cross-platform package manager for C++:
+    <a target="_blank" href="https://github.com/ruslo/hunter">https://github.com/ruslo/hunter</a>
+<hr />
+
+<i>2015-09-03</i><br/ >
+    Why Roost (free eBook):
+    <a target="_blank" href="http://www.oreilly.com/programming/free/files/why-rust.pdf">http://www.oreilly.com/programming/free/files/why-rust.pdf</a>
+<hr />
+
+<i>2015-09-02</i><br/ >
+    Top 40 Core Java Interview Questions:
+    <a target="_blank" href="http://java67.blogspot.sg/2015/03/top-40-core-java-interview-questions-answers-telephonic-round.html">http://java67.blogspot.sg/2015/03/top-40-core-java-interview-questions-answers-telephonic-round.html</a>
+<hr />
+
 <i>2015-09-01</i><br/ >
     Design patterns:
     <a target="_blank" href="https://sourcemaking.com/design_patterns">https://sourcemaking.com/design_patterns</a>
