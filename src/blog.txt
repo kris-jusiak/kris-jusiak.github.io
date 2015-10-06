@@ -1,5 +1,44 @@
 $blog = '
 
+<i>2015-10-06</i><br/ >
+    Boosting Developer Productivity with Clang:
+    <a target="_blank" href="http://events.linuxfoundation.org/sites/events/files/slides/linuxcon-europe-2015.pdf">http://events.linuxfoundation.org/sites/events/files/slides/linuxcon-europe-2015.pdf</a>
+<hr />
+
+<i>2015-10-05</i><br/ >
+    2015-09 pre-Kona mailing available:
+    <a target="_blank" href="https://isocpp.org/blog/2015/10/2015-09-pre-kona-mailing-available">https://isocpp.org/blog/2015/10/2015-09-pre-kona-mailing-available</a>
+<hr />
+
+<i>2015-10-04</i><br/ >
+    CppCon 2015:
+    <ul>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg">https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg</a></li>
+        <li><a target="_blank" href="https://github.com/CppCon/CppCon2015">https://github.com/CppCon/CppCon2015</a></li>
+    </ul>
+    '.cpp_file("cpp/perf.cpp").'
+<hr />
+
+<i>2015-10-01</i><br/ >
+    C++ Core Guidelines:
+    <a target="_blank" href="https://github.com/isocpp/CppCoreGuidelines">https://github.com/isocpp/CppCoreGuidelines</a>
+<hr />
+
+<i>2015-09-26</i><br/ >
+    Rejuvenating the Microsoft C/C++ Compiler:
+    <a target="_blank" href="http://blogs.msdn.com/b/vcblog/archive/2015/09/25/rejuvenating-the-microsoft-c-c-compiler.aspx">http://blogs.msdn.com/b/vcblog/archive/2015/09/25/rejuvenating-the-microsoft-c-c-compiler.aspx</a>
+<hr />
+
+<i>2015-09-25</i><br/ >
+    Ten things we know to be true:
+    <a target="_blank" href="http://www.google.com/about/company/philosophy">http://www.google.com/about/company/philosophy</a>
+<hr />
+
+<i>2015-09-22</i><br/ >
+    The One Method I’ve Used to Eliminate Bad Tech Hires:
+    <a target="_blank" href="https://medium.com/swlh/the-one-method-to-eliminate-bad-tech-hires-630d539b2e1d">https://medium.com/swlh/the-one-method-to-eliminate-bad-tech-hires-630d539b2e1d</a>
+<hr />
+
 <i>2015-09-20</i><br/ >
     C++ Reflection:
     <a target="_blank" href="https://github.com/AustinBrunkhorst/CPP-Reflection">https://github.com/AustinBrunkhorst/CPP-Reflection</a>
